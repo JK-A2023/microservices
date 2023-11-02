@@ -11,8 +11,8 @@
    1. Abstracts infrastrucutre, handles the compute, networking, and automates application management.
 2. Scaling and Load Balancing
    1. K8 can automatically adjust containers and distribute traffic accordingly.
-3. High Availability
-   1. K8 provides mechanisms for ensuring high availability of your applications.
+3. Self-Healing
+   1. K8 
 4. Portability
    1. K8 abstracts away the underlying infrastructure, making it easier to move your applications between different cloud providers or on-premises data centers without significant modifications.
 5. Configurability
@@ -44,7 +44,7 @@ kubectl
 
 ## Docker Commands:
 
-To check 
+### Checking K8 
 
 ```
 kubectl get service
@@ -56,4 +56,8 @@ OR
 kubectl get svc
 ```
 
+### Editing K8 Services
 
+```
+kubectl edit deploy nginx-deployment
+```
