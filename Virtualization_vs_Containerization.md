@@ -19,4 +19,4 @@ Virtualization and containerization are both technologies used to manage and dep
 
 1. Virtualization is useful in running multiple operating systems on a single server, and creating sandboxed environments for testing and development.
 2. Containerization is for microservices architectures. Containers are particularly useful when you want to package, deploy, and manage applications consistently across different environments.
-3. Virtualization is much "heavier" than Containerization. Virtualization gives each application a more hermetically sealed environment in which no processes can interfere with your application, or vice versa. However, it's not very portable, and not always practical to set up and boot up an entire operating system to deploy an application.
+3. Virtualization is much "heavier" than Containerization. Virtualization gives each machine a more hermetically sealed environment in which no processes can interfere with your application, or vice versa. However, it's not very portable, and not always practical to set up and boot up an entire operating system to deploy an application.
